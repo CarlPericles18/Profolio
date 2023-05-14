@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Header{
+    text-align: center;
+    color: #F8F4EA;
+    background-color:#232b2b;
+    font-family:sans-serif ;
+}
