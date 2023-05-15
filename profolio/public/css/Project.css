@@ -1,0 +1,24 @@
+.projectContainers{
+    margin: 40px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.buttonDiv {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+.containers{
+    border:1px solid red;
+
+}
+.imageDiv{
+    width: 100%;
+}
+.projectImages{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

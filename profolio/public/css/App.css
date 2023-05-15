@@ -8,4 +8,35 @@
     color: #F8F4EA;
     background-color:#232b2b;
     font-family:sans-serif ;
+    padding: 50px 40px 50px 40px;
+}
+.Header h3{
+    margin-top: 20px;
+}
+.Header p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.ProjectBttn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-size: 15px;
+    background-color: #F8F4EA;
+    color:#232b2b;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+.ProjectBttn:hover{
+    background-color:#232b2b;
+    color: #F8F4EA;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(248,244,234,1);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(248,244,234,1);
+    box-shadow: 0px 0px 8px 0px rgba(248,244,234,1);
+}
+h2{
+    margin: 50px 0 0 10px;
+    font-family: sans-serif;
+    color:#232b2b;    
 }
