@@ -49,14 +49,11 @@ export default function App() {
               <button className="ProjectBttn" onClick={handleClickContact}>Contact</button>
               </div>
            </header>
-           <div  ref={Projects}  ><h2>Projects</h2></div>
-          {projectData}
+           <div  ref={Projects}  ><h2 className="projectSubject">Projects</h2></div>
+          <div className="projectData">{projectData}</div>
           <div  ref={contact} className="contactDiv" >
-            <div className="scrollAndContact">
-              <h2 >Contact</h2>
-              <div  className="scrollUp"><img  onClick={handleClickAbout} src={upArrow} alt="upArrow"  ></img></div>
-            </div>
-            
+              <h2 className="ContactSubject" >Contact</h2>
+          <div className="scrollUp"><img  onClick={handleClickAbout} src={upArrow} alt="upArrow"  ></img></div>
           <Contact/>
           </div>
           

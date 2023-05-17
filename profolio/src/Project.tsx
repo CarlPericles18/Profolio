@@ -23,6 +23,6 @@ export default function Project(props:Props){
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
     )
 }
