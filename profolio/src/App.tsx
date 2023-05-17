@@ -22,7 +22,7 @@ export default function App() {
   const handleClickContact = ()=>{
     contact.current?.scrollIntoView({behavior: 'smooth'});
   }
-  const projectData = data.Projects.map((e, index)=>{
+  const projectData = data.Projects.map((e)=>{
         return(
           <Project
               key={e.id}
@@ -44,9 +44,9 @@ export default function App() {
                 I am willing to do what it take to become the best at what I do.
               </p>
               <div className="nav" >
-              <button className="ProjectBttn" onClick={handleClickAbout}>About</button>
-              <button className="ProjectBttn" onClick={handleClickProject}>Projects</button>
-              <button className="ProjectBttn" onClick={handleClickContact}>Contact</button>
+              <button className="ProjectButton" onClick={handleClickAbout}>About</button>
+              <button className="ProjectButton" onClick={handleClickProject}>Projects</button>
+              <button className="ProjectButton" onClick={handleClickContact}>Contact</button>
               </div>
            </header>
            <div  ref={Projects}  ><h2 className="projectSubject">Projects</h2></div>
