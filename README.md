@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Welcome to my Profolio, This is a page I have made to show my work during my jorney of web developing. Please click here to access the live website.
+Welcome to my Profolio, This is a page I have made to show my work during my jorney of web developing. [Please click here to access website.](https://sprightly-starburst-3a3efd.netlify.app/)
 Please contact me if you have any suggestion or feedback. Thank you.
 
 
