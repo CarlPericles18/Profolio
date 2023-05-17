@@ -8,7 +8,7 @@
     color: #F8F4EA;
     background-color:#232b2b;
     font-family:sans-serif ;
-    padding: 50px 40px 50px 40px;
+    padding: 80px 40px 50px 40px;
 }
 .Header h3{
     margin-top: 20px;
@@ -17,10 +17,19 @@
     font-size: 13px;
     margin-top: 20px;
 }
+.nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto 0 auto; 
+    top: 0;
+    padding-top:40px;
+}
+
+
 .ProjectBttn{
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 80px;
     font-size: 15px;
     background-color: #F8F4EA;
     color:#232b2b;
@@ -39,4 +48,49 @@ h2{
     margin: 50px 0 0 10px;
     font-family: sans-serif;
     color:#232b2b;    
+}
+.contactDiv{
+    background-color:#232b2b;
+}
+.contactDiv h2{
+    color: #F8F4EA;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+}
+.scrollAndContact{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 20px 0 0;
+}
+.scrollAndContact h2{
+    margin:20px 0 0 10px;
+
+}
+.scrollUp{
+    cursor: pointer;
+    max-width: 13%;
+    height: 10%;
+    padding: 10px;
+    background-color:#8a8989;
+    border-radius: 100%;
+    position: fixed;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.scrollUp img{
+   max-width: 100%;
+   max-height: 100%;
+}
+.scrollUp:hover{
+    background-color: #9d9c9c;
+}
+.scrollUpDiv{
+    border: 1px solid red;
+    padding: 10px;
+    cursor: pointer;
 }

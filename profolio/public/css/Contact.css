@@ -1,0 +1,30 @@
+.contactContainers{
+    background-color: #232b2b;
+    color: #F8F4EA;
+    margin: 0;
+}
+.phoneAndEmail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin:10px;
+}
+.emailLink{
+    text-decoration: none;
+    color: #F8F4EA;
+    max-width:43%;
+}
+.emailLink:hover{
+    color: antiquewhite;
+}
+.contactImages{
+    display:flex;
+    max-width: 40%;
+    gap: 20px;
+    justify-content: center;
+    margin:0 auto 0 auto;
+    padding-bottom: 20px;
+}
+.contactImages img{
+    width: 100%;
+}

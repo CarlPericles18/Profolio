@@ -1,24 +1,49 @@
 .projectContainers{
     margin: 40px 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 .buttonDiv {
     display: flex;
     justify-content:center;
-    gap: 20px;
+    gap:60px;
+
 }
 
+.buttonDiv button{
+    cursor: pointer;
+    color: #232b2b;
+    background-color:#F8F4EA;
+    border-radius: 5px;
+    padding:5px 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.buttonDiv button:hover{
+    background-color: #232b2b;
+    color: #F8F4EA;
+}
 .containers{
-    border:1px solid red;
-
+    box-shadow: 0px 0px 5px 0px rgba(35,43,43,1);
 }
 .imageDiv{
     width: 100%;
+    background-color: #232b2b;
 }
 .projectImages{
     width: 100%;
     height: 100%;
     object-fit: fill;
+}
+.projectTitle{
+    margin: 0px 0 20px 5px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: #F8F4EA;
+
+}
+.projectInfo{
+    background-color:#232b2b;
+
 }

@@ -16,16 +16,7 @@ export default {
             code:"https://github.com/CarlPericles18/CountryApi"
         },
 
-        {
-            id:3,
-            img:0,
-            title:''
-        },
-        {
-            id:4,
-            img:0,
-            title:''
-        }
+       
 
     ],
 

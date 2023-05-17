@@ -1,11 +1,19 @@
+interface Props {
+    key:Number;
+    img: string;
+    title: string;
+    href: string;
+    code: string;
+}
 
-export default function Projects(){
+
+export default function Project(props:Props){
 
     return(
-            <div className="projectContainers">
-                {/* <div className="containers">
+        <div className="projectContainers">
+                <div className="containers">
                     <div className="imageDiv">
-                        <img className='projectImages' src={props.img} alt='projectImage'></img>
+                        <img className='projectImages'key={props.img} src={props.img} alt='projectImage'></img>
                     </div>
                     <div className="projectInfo">
                         <h3 className='projectTitle'>{props.title}</h3>                            
@@ -14,7 +22,7 @@ export default function Projects(){
                         <a href={props.code} target='_blank'><button>Code</button></a>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
-        )
+    )
 }
