@@ -44,10 +44,15 @@
     -moz-box-shadow: 0px 0px 12px 0px rgba(248,244,234,1);
     box-shadow: 0px 0px 8px 0px rgba(248,244,234,1);
 }
-h2{
+.ContactSubject{
+    font-family: sans-serif;
+    color:#232b2b;   
+
+}
+.projectSubject{
     margin: 50px 0 0 10px;
     font-family: sans-serif;
-    color:#232b2b;    
+    color:#232b2b;
 }
 .contactDiv{
     background-color:#232b2b;
@@ -58,22 +63,16 @@ h2{
     padding-bottom: 10px;
 
 }
-.scrollAndContact{
-    display: flex;
-    justify-content:space-between;
-    margin: 0 20px 0 0;
-}
-.scrollAndContact h2{
-    margin:20px 0 0 10px;
-
+.ContactSubject{
+    margin:30px 0 0 10px;
 }
 .scrollUp{
     cursor: pointer;
     max-width: 13%;
-    height: 10%;
+    height: 8%;
     padding: 10px;
     background-color:#8a8989;
-    border-radius: 100%;
+    border-radius:50%;
     position: fixed;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -88,9 +87,4 @@ h2{
 }
 .scrollUp:hover{
     background-color: #9d9c9c;
-}
-.scrollUpDiv{
-    border: 1px solid red;
-    padding: 10px;
-    cursor: pointer;
 }
